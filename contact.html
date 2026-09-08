@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <title>Contacto | Higino</title>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Portfólio pessoal de Higino Domingos Baptista Júnior.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/estilo.css">
+<link rel="stylesheet" href="css/responsivo.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a class="brand" href="index.html">Higino<span>.</span></a>
+    <nav aria-label="Navegação principal">
+      <ul class="nav-list">
+        <li><a href="index.html" class="">Home</a></li>
+        <li><a href="about.html" class="">Sobre / CV</a></li>
+        <li><a href="portfolio.html" class="">Portfólio</a></li>
+        <li><a href="hobbies.html" class="">Hobbies</a></li>
+        <li><a href="contact.html" class="active">Contacto</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main>
+<section class="page-hero section">
+  <div class="container">
+    <p class="eyebrow">CONTACTO</p>
+    <h1>Vamos conversar</h1>
+    <p>Preencha o formulário abaixo. A validação é feita nativamente pelo HTML5.</p>
+  </div>
+</section>
+<section class="section">
+  <div class="container contact-layout">
+    <article class="content-card">
+      <h2>Fale comigo</h2>
+      <p><strong>Email:</strong> <a href="mailto:cheltonhigino47@gmail.com">cheltonhigino47@gmail.com</a></p>
+      <p><strong>Telefone:</strong> <a href="tel:+258834717115">+258 83 471 7115</a></p>
+      <p><strong>TikTok:</strong> Revolução</p>
+      <p class="small">Os campos marcados com * são obrigatórios.</p>
+    </article>
+    <form class="contact-form" action="#" method="post" enctype="multipart/form-data">
+      <fieldset>
+        <legend>Dados pessoais</legend>
+        <div class="form-grid">
+          <div class="field full"><label for="nome">Nome *</label><input id="nome" name="nome" type="text" required minlength="3" maxlength="80" autocomplete="name"></div>
+          <div class="field"><label for="email">Email *</label><input id="email" name="email" type="email" required autocomplete="email"></div>
+          <div class="field"><label for="telefone">Telefone *</label><input id="telefone" name="telefone" type="tel" required pattern="^\+?[0-9 ]{9,15}$" placeholder="+258 83 000 0000"></div>
+          <div class="field"><label for="data">Data preferida *</label><input id="data" name="data" type="date" required></div>
+          <div class="field"><label for="idade">Idade *</label><input id="idade" name="idade" type="number" min="14" max="100" required></div>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Mensagem</legend>
+        <div class="field"><label for="assunto">Assunto *</label><select id="assunto" name="assunto" required><option value="">Escolha uma opção</option><option>Projeto Web</option><option>Freelance</option><option>Oportunidade</option><option>Outro</option></select></div>
+        <div class="field"><span class="label">Tipo de contacto *</span><div class="options"><label><input type="radio" name="tipo" value="email" required> Email</label><label><input type="radio" name="tipo" value="telefone"> Telefone</label></div></div>
+        <div class="field"><label for="cv">Anexar CV/portfólio</label><input id="cv" name="cv" type="file" accept=".pdf,.doc,.docx,.png,.jpg,.jpeg"></div>
+        <div class="field"><label for="mensagem">Mensagem *</label><textarea id="mensagem" name="mensagem" rows="6" required minlength="10" maxlength="800" placeholder="Escreva a sua mensagem..."></textarea></div>
+        <label class="check"><input type="checkbox" name="consentimento" required> Concordo em ser contactado através dos dados fornecidos. *</label>
+        <button class="btn btn-primary" type="submit">Enviar mensagem</button>
+      </fieldset>
+    </form>
+  </div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <h2>Vamos conversar?</h2>
+      <p>Aberto a oportunidades, projetos e novas aprendizagens.</p>
+    </div>
+    <div class="footer-contact">
+      <a href="mailto:cheltonhigino47@gmail.com">cheltonhigino47@gmail.com</a>
+      <a href="tel:+258834717115">+258 83 471 7115</a>
+      <a href="https://www.tiktok.com/" target="_blank" rel="noopener">TikTok — Revolução</a>
+    </div>
+  </div>
+  <p class="copyright">Desenvolvido por Higino Domingos Baptista Júnior</p>
+</footer>
+</body>
+</html>
