@@ -30,3 +30,4 @@ Abra `index.html` num navegador moderno. Para publicar, envie esta estrutura par
 
 ## Observação
 Os projetos do portfólio são exemplos/conceitos académicos criados para demonstrar a estrutura exigida pelo trabalho. Podem ser substituídos por projetos reais no futuro.
+< Atualizado para submissão final -->
